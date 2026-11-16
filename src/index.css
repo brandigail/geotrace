@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tailwind v4 resets buttons to the default cursor; interactive things should look interactive. */
+button:not(:disabled),
+a[href],
+select,
+summary,
+label:has(input[type="checkbox"]),
+[role="button"] {
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* The map's pin markers are drawn as inline SVG, so they need no box or background of their own. */
+.geotrace-pin {
+  background: transparent;
+  border: 0;
+}
