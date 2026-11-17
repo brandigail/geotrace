@@ -2,7 +2,7 @@
 
 Record a trip with live GPS, watch the route draw on a map, drop waypoints with notes and photos, see the elevation profile and export the trip as GPX or KML. Everything is stored on your device, and recording works with no internet connection.
 
-**Live demo:** coming soon (built and tested locally; not deployed yet)
+**Live demo:** https://geotrace-594.netlify.app
 **Run locally:** see [Run locally](#run-locally)
 
 ![A hike with its route, stats, elevation profile and waypoints](docs/screenshots/detail-snowdon.png)
